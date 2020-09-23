@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Life Design Games Code`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yi Sheng Siow`,
+      summary: `who dreams and strives in Singapore.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `One guy's thoughts about life, design, games and code.`,
+    siteUrl: `https://musing-curie-d182ad.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `siowyisheng`,
     },
   },
   plugins: [
@@ -53,15 +53,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-178919492-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Life Design Games Code`,
+        short_name: `LGDC`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "my-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "One guy's thoughts about life, design, games and code.",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
@@ -46,6 +46,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
